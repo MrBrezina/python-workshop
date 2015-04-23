@@ -2,8 +2,8 @@
 # basic Python syntax elements
 # these are comments
 
-a = 25	# assignment, intializing variable a
-b = 3	# assignment, intializing variable b
+a = 25	# assignment, initializing variable a
+b = 3	# assignment, initializing variable b
 
 if a > 20:		# conditional statement if
 	# starting indented block

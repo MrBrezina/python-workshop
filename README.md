@@ -108,9 +108,9 @@ A very brief intro to Python 2 and its use in font engineering and type design.
 ### Friday afternoon (14:00–17:00)
 - introduction to Glyphs API (alternatively Robofab)
 - **task:** write scripts for Glyphs
-- ☕️ tea break
+- ☕️ 
 - **task:** write scripts for Glyphs
-- 🚀home
+- 🚀 to meet Robo people
 
 #### Additional topics not covered in this workshop
 - `set` type

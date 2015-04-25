@@ -8,4 +8,9 @@ import GlyphsApp
 
 font = Glyphs.font
 
+font.disableUpdateInterface()
+
+# delete all global guidelines
 font.selectedFontMaster.guideLines = []
+
+font.enableUpdateInterface()

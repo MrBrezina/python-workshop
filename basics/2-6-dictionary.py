@@ -1,20 +1,23 @@
 
 ### Dictionary ###
 
-person = { "name":"David", "height": 182, "weight": 72 }
-person["name"]
+person = {"name":"David", "height": 182, "weight": 72 }
+print person["name"]
 person["name"] = "John"
 key = "weight"
-person
+print person
 person[key] += 10
 person["age"] = 28
-person
+print person
+print person["height"], person["age"]
 equipment = {"name":"book", "pages":200}
 person["stuff"] = equipment	# nesting
-person
-person.keys()	# list of keys
-person.values()	# list of values
-person.items()	# list of tuples (key, value)
+print person
+print person.keys()     # list of keys
+print person.values()	# list of values
+print person.items()	# list of tuples (key, value)
+print person["stuff"]["name"]
+
 person.has_key("name")
-"name" in person # better
+"name" in person        # not clear, perhaps
 "name" in person.keys() # more readable

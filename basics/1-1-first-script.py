@@ -1,17 +1,25 @@
-students = ["Maria", "Noel", "Norbert", "Fermin", "Becca", "Juan", "Thalia", "Najla", "Borna", "Ueli", "Vincenzo", "Anna", "Zeynep", "Sergio", "Sebastian", "John"]
-guests = ["Anna", "Zeynep"]
 
-print "*" * 66
-print
-print "There should be %d students in the room." % len(students)
-print
-print "Namely (in alphabetical order):"
+### First script ###
 
-for student in sorted(students):
-    if student in guests:
-        print "  ", student, "(guest)"
-    else:
-        print "  ", student
+# simple example to demonstrate
+# basic Python syntax elements
 
-print
-print "*" * 66
+a = 25	# assignment, initializing variable a
+b = 3	# assignment, initializing variable b
+
+if a > 20:		# conditional statement if
+	# starting indented block
+	a = 15	# assignment
+	b = 4
+	print "a is bigger than 20"	# print statement
+	# end of indented block
+
+else:
+	# another indented block
+	a = a + b + 1	# assigning result of an expression
+	b = a - 5		# assigning result of an expression
+	print "a is smaller than 20"
+	# end of indented block
+
+print a	# print statement
+print b

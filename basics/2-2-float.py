@@ -18,6 +18,6 @@ print 5 / 0
 
 print 6.0 == 6.1
 
-print 6 == 6.0
+print 6 == 6.0 # compares value
 
-print 6 is 6.0
+print 6 is 6.0 # compares value AND type

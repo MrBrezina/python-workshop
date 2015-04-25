@@ -1,9 +1,6 @@
 
 ### Assignment ###
 
-# interactive prompt automatically writes the result of expression
-# print is not necessary
-
 # integer
 
 a = 12
@@ -34,3 +31,8 @@ print a
 
 a = b = c = 7422
 print a,b,c
+
+x = 7
+y = 11
+z = x**2 + y**2
+print z

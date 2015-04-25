@@ -1,5 +1,5 @@
 
-# Expressions
+### Integer ###
 
 # calculate how much is: 12 times 13
 

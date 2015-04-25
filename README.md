@@ -11,7 +11,7 @@
 
 ## Agenda
 
-A very brief intro to Python 2 and its use in font engineering and type design.
+A very brief intro to Python 2.x, its use in font engineering and type design. Optionally, an intro into Git.
 
 ### Thursday morning (9:30–13:00)
 
@@ -96,23 +96,25 @@ A very brief intro to Python 2 and its use in font engineering and type design.
   - returning value
 - **modules (`import`)**
 - note on name spaces
-- ☕️ tea break
+- ☕️
+- **task:** advanced code with DrawBot
+
+### Friday afternoon (14:00–17:00)
+
+- introduction to Glyphs API
+- **task:** write scripts for Glyphs
+- ☕️ 
+- **task:** write scripts for Glyphs
 - explain [Git](http://git-scm.org)
 - **task:** work with this repo
   - clone this repo
   - create your own forder within the repo
   - push the changes to the GitHub
   - pull other students’ commits
-- **task:** advanced code with DrawBot
-
-### Friday afternoon (14:00–17:00)
-- introduction to Glyphs API (alternatively Robofab)
-- **task:** write scripts for Glyphs
-- ☕️ 
-- **task:** write scripts for Glyphs
-- 🚀 to meet Robo people
+- 🚀
 
 #### Additional topics not covered in this workshop
+
 - `set` type
 - `while` loop
 - `break`, `else`, `continue` statements used with loops
@@ -121,9 +123,10 @@ A very brief intro to Python 2 and its use in font engineering and type design.
 
 ### Resources
 
-- GitHub - hosting of Git repos – free public repos, large community
-- [BitBucket](http://bitbucket.org) – free private and public repos
 - [Python documentation](https://docs.python.org/2/)
 - [Robodocs](http://robodocs.readthedocs.org)
 - [Stack Overflow](http://stackoverflow.com)
 - [Robofab](http://robofab.com)
+- [Git](http://git-scm.com)
+- [GitHub](http://github.com) - hosting of Git repos – free public repos, large community
+- [BitBucket](http://bitbucket.org) – free private and public repos
